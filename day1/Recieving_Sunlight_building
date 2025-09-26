@@ -1,0 +1,18 @@
+// User function Template for Java
+
+class Solution {
+
+    public static int longest(int arr[]) {
+        // write code here
+        
+       int c = 0; 
+       int max = 0;
+       for(int x: arr ){
+           if(x>=max){
+               max = x;
+               c++;
+           }
+       }
+       return c;
+    }
+}
